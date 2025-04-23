@@ -1,16 +1,15 @@
-# TEI Editor
-This open-source TEI tool, currently in development by Yue Cui, allows editors to add tags with one click. Errors can be easily corrected.
-See https://georgeeliotarchive.github.io/TEI/editor/
+# TEI Assist
+TEI Assist is an open-source tool designed to help users add machine-readable codes to text following standardized TEI guidelines. Currently in development by Dr. Yue Cui for the George Eliot Archive project, this tool enables editors to add tags with a single click, verify codes, and easily correct errors such as duplicates.
+For more information, visit https://georgeeliotarchive.github.io/TEI/editor/
 
-Here are some features: 
-1. If you paste a document in the editing panel, and click the paragraph tag `<p>`. it will automatically add a `<p>` tag around the paragraph. Note, you may need to hit `command + z` to make the tags highlighted. 
-2. With the “Quick Editing Mode”, you can easily select any text in the editing panel and wrapped them with the selected tag. The selected text will be shown in the “Tagged Elements” section below. 
-3. All the selected text will be recorded in the “Tagged Elements” section with a button “Apply to all”. If you click this button, all the other occurrence of the words will be tagged as well. Sometimes, the first apply to all action will not be shown, but if you click the second one, the first one will be shown at the same time. Again, I don’t know how to fix it yet, but I will keep trying. 
-4. There is a “verify all tags” button to the left, and it will fix all the double tags.
-5. We can change the font family and size. 
+Here are the key features: 
+1. Automatic Tagging: If you paste a document in the editing panel, and click the paragraph tag `<p>`. it will automatically add a `<p>` tag around the paragraph. Note, you may need to hit `command + z` to make the tags highlighted. 
+2. Quick Editing Mode: Select any text in the editing panel and wrap it with the selected tag. The selected text will be shown in the “Tagged Elements” section below. 
+3. Apply to All: All selected text is recorded in the “Tagged Elements” section with an “Apply to all” button. Clicking this will tag all occurrences of the selected text. If the first action doesn’t show, clicking again will display it. We are working to resolve this inconvenient bug.
+4. Tag Verification: Use the “Verify All Tags” button to fix any double tags in your document.
+5. Customizable Appearance: Change the font family and size to suit your preferences.
 
-Some future features(under development)
-1. Supporting more tags and generating headers for the document.
-2. Using AI to generate tags automatically.
-3. "Qucik deleting mode" will allow user to select any tagged text and delete all tags for that text.
-
+Future Features(under development)
+1. Support for additional tags and automatic header generation.
+2. AI-assisted tag generation.
+3. A "Quick Deleting Mode" to remove tags from selected text.
