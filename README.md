@@ -3,7 +3,7 @@ TEI Assist is an open-source tool designed to help users add machine-readable co
 For more information, visit https://georgeeliotarchive.github.io/TEI/editor/
 
 Here are the key features: 
-1. Automatic Tagging: If you paste a document in the editing panel, and click the paragraph tag <p> it will automatically add a <p> tag around the paragraph. Note, you may need to hit `command + z` to make the tags highlighted. 
+1. Automatic Tagging: Paste a document into the editing panel and click the paragraph tag <p>. The tool will automatically wrap the paragraph in <p> tags. (Note: You may need to press command + z to highlight the tags.)
 2. Quick Editing Mode: Select any text in the editing panel and wrap it with the selected tag. The selected text will be shown in the “Tagged Elements” section below. 
 3. Apply to All: All selected text is recorded in the “Tagged Elements” section with an “Apply to all” button. Clicking this will tag all occurrences of the selected text. If the first action doesn’t show, clicking again will display it. We are working to resolve this inconvenient bug.
 4. Tag Verification: Use the “Verify All Tags” button to fix any double tags in your document.
